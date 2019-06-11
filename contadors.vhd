@@ -1,0 +1,30 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+ENTITY contadors IS
+PORT (clk, rst, en, controle: IN STD_LOGIC;
+      dig      : OUT STD_LOGIC_VECTOR (3 DOWNTO 0 ));
+END contadors;
+
+ARCHITECTURE imp OF contadors IS
+   SIGNAL conta : INTEGER RANGE 0 TO 9 := 0;
+   SIGNAL max   : INTEGER RANGE 0 TO 9;
+BEGIN
+   max <= 9 WHEN controle = '0' ELSE
+          5;
+   PROCESS(clk,rst, en, max)
+   BEGIN
+      IF rst = '0' THEN
+         conta <= 0;
+      ELSIF clk'EVENT AND clk = '1' THEN
+        IF en = '1' THEN
+        IF conta < max THEN
+           conta <= conta + 1;
+      ELSE
+         conta <= 0;
+      END IF;
+      END IF;
+      END IF;
+    END PROCESS;
+    dig <= STD_LOGIC_VECTOR(TO_UNSIGNED(conta,4));
+END imp;

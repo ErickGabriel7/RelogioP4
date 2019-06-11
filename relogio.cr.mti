@@ -1,0 +1,19 @@
+C:/intelFPGA/18.0/relogio/ContaSinc.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA\18.0\relogio\ContaSinc.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ContaSinc
+-- Compiling architecture imp of ContaSinc
+
+} {} {}} C:/intelFPGA/18.0/relogio/tb_div5b.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\intelFPGA\18.0\relogio\tb_div5b.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_div5b
+-- Compiling architecture teste of tb_div5b
+
+} {} {}}
