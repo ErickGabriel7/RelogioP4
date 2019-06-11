@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.0
+Econtasinc
+Z0 w1540242032
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/intelFPGA/18.0/relogio
+Z5 8C:\intelFPGA\18.0\relogio\ContaSinc.vhd
+Z6 FC:\intelFPGA\18.0\relogio\ContaSinc.vhd
+l0
+L7
+V=[=WFe;^m:>9lO4W8^9SX3
+!s100 1H6A3=8>NLc8^]IDD=g;G1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1540242034
+!i10b 1
+Z9 !s108 1540242034.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\intelFPGA\18.0\relogio\ContaSinc.vhd|
+Z11 !s107 C:\intelFPGA\18.0\relogio\ContaSinc.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aimp
+R1
+R2
+R3
+DEx4 work 9 contasinc 0 22 =[=WFe;^m:>9lO4W8^9SX3
+l17
+L12
+V4E7ZPfTZZ`i0GO=@>gGX41
+!s100 >1NJ3;fe0S0VC;Ll[GbiA3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ediv5b
+Z14 w1540240641
+R1
+R2
+R3
+R4
+Z15 8C:\intelFPGA\18.0\relogio\div5b.vhd
+Z16 FC:\intelFPGA\18.0\relogio\div5b.vhd
+l0
+L7
+VmSeYhEW]jkkjfflQC6m6C1
+!s100 ^OTWX4PYDb7W?EB7N<CMA3
+R7
+32
+Z17 !s110 1540241760
+!i10b 1
+Z18 !s108 1540241760.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\intelFPGA\18.0\relogio\div5b.vhd|
+Z20 !s107 C:\intelFPGA\18.0\relogio\div5b.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 5 div5b 0 22 mSeYhEW]jkkjfflQC6m6C1
+l14
+L12
+VC4[8d2be<_?^Nc>Y<8l=B0
+!s100 QLz7eg_9KF=E0aDAYYG0O3
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Etb_div5b
+Z21 w1540234203
+R1
+R2
+R3
+R4
+Z22 8C:\intelFPGA\18.0\relogio\tb_div5b.vhd
+Z23 FC:\intelFPGA\18.0\relogio\tb_div5b.vhd
+l0
+L7
+VoQ124QFo]ko2T:^Lm?bXd1
+!s100 0NFlTR>>>1;B`o@J=[]d73
+R7
+32
+Z24 !s110 1540234207
+!i10b 1
+Z25 !s108 1540234207.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\intelFPGA\18.0\relogio\tb_div5b.vhd|
+Z27 !s107 C:\intelFPGA\18.0\relogio\tb_div5b.vhd|
+!i113 1
+R12
+R13
+Ateste
+R1
+R2
+R3
+DEx4 work 8 tb_div5b 0 22 oQ124QFo]ko2T:^Lm?bXd1
+l22
+L10
+VZb`Teoj?i^GFT7X]N;4?E2
+!s100 G0LMZ5JK^1ci6a=YK;VI`1
+R7
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R12
+R13
